@@ -1,4 +1,4 @@
-package test1;
+package stu.day0401;
 
 public class page182 {
 
