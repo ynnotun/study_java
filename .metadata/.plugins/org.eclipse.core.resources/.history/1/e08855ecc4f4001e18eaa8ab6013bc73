@@ -1,0 +1,57 @@
+package study0404;
+
+import java.util.Scanner;
+
+class BankApplication
+{
+	BankApplication()
+	{
+		Account[] account = new Account[100];//생성만 함//할당은 안함
+	}
+	
+	public void menu()
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		printTitle();
+		while(true)
+		{
+			
+			
+		}
+		
+		//sc.close();
+	}
+	
+	public void printTitle()
+	{
+		System.out.println("-".repeat(50));
+		System.out.println("1. 계좌생성 | 2. 계좌목록 | 3. 예금 | 4. 출금 | 5. 종료");
+		System.out.println("-".repeat(50));
+	}
+}
+
+class Account
+{
+	private String accountNumber;
+	private String owner;
+	private int balance;
+	
+	Account(String accountNumber, String owner, int balance)
+	{
+		
+	}
+	
+	//getter
+	
+	//setter
+}
+
+public class BookClass20 
+{
+	public static void main(String[] args) 
+	{
+		BankApplication bankapplication = new BankApplication();
+		bankapplication.menu();
+	}
+}
