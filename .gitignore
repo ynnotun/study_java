@@ -1,3 +1,6 @@
+# 불필요한 파일 제거
 /.metadata/
 */bin/
 */.settings/
+/.idea/
+*/.idea/
