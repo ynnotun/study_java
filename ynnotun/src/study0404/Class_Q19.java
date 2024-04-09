@@ -18,7 +18,7 @@ class Account
 }
 
 
-public class Q19 {
+public class Class_Q19 {
 
 	public static void main(String[] args)
 	{

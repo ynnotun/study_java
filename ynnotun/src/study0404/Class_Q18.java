@@ -1,6 +1,6 @@
 package study0404;
 
-public class Q18 {
+public class Class_Q18 {
 	public static void main(String[] args) 
 	{
 		/*
