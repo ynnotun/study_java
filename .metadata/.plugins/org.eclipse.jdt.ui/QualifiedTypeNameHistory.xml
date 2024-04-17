@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="study0408.SnowTire"/>
+    <fullyQualifiedTypeName name="study0411.DataAccessObject"/>
+    <fullyQualifiedTypeName name="study0411.Chatting.Chat"/>
+    <fullyQualifiedTypeName name="study0411.Chatting"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="study0418.NotExistIDException"/>
+    <fullyQualifiedTypeName name="study0418.WrongPassWordException"/>
+</qualifiedTypeNameHistroy>
