@@ -49,10 +49,10 @@ public class Exception_Q7 {
 		// id가 blue가 아니라면 NotExistIDException
 		
 		if(!id.equals("blue")) {
-			NotExistIDException e1 = new NotExistIDException("로그인 에러");
+			throw new NotExistIDException("아이디 불일치");
 		}
 		if(!password.equals("12345")) {
-			WrongPasswordException e2 = new WrongPasswordException("비밀번호 에러");
+			throw new WrongPasswordException("비밀번호 불일치");
 		}
 	}
 }
