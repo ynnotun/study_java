@@ -25,7 +25,7 @@ public class page485_7 // <- LoginExample
 	{
 		try
 		{
-			login("white", "12345");
+			login("white", "12345");//login 메서드 수행//아이디 예외 발생
 		}
 		catch (Exception e) 
 		{
@@ -34,7 +34,7 @@ public class page485_7 // <- LoginExample
 
 		try 
 		{
-			login("blue", "54321");
+			login("blue", "54321");//login 메서드 수행 // 비밀번호 예외 발생
 		}
 		catch (Exception e) 
 		{
